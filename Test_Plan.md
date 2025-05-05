@@ -51,7 +51,7 @@ Area                Details
 UI                  Homepage, Interests Page, Sign-Up, Post Editor
 APIs                Auth, Interests, Posts (Swagger-based)
 WebSocket           Real-time messaging & updates
-Performance         Load testing APIs using k6 or JMeter
+Performance         Load testing APIs using JMeter
 Design Validation   Compare UI with Figma reference
 Multi-Device        Chrome DevTools simulation + real device checks
 
@@ -63,7 +63,7 @@ Exploratory Testing     Identify unknown risks via unscripted exploration
 UI/UX Testing           Match against Figma, check alignment, visual consistency
 API Testing             Use Postman to test endpoints for GET, POST, PUT, DELETE
 WebSocket Testing       Connect via WebSocket tool / Postman to verify event emissions
-Load Testing            Simulate concurrent users on selected endpoints and document system behavior
+Load Testing            Simulate concurrent users 10 and 100 on selected endpoints and document system behavior
 Cross-browser Testing   Validate layout and functionality across Chrome, Firefox, and Edge
 
 Test Environment
